@@ -2,9 +2,11 @@
 
 ###Date: 12/4/2016
 
-###Author: Dr. Cheng Chang
+###Author: Dr. Cheng Chang 
 
-###Version v1.1
+**Email: 1987ccpacer@163.com or 1987ccpacer@gmail.com**
+
+###Version: v1.1
 
 ## Goal
 The tool IsoErrorAnalysis is developed and used to calculate the peptide isotopic abundance error in MS data.
@@ -16,14 +18,16 @@ The tool IsoErrorAnalysis is developed and used to calculate the peptide isotopi
 
 ## Usage
 
-1. Open a CMD command window and run "IsoErrorAnalysis.exe -help" for detail information.
+1. Open a CMD command window and run "IsoErrorAnalysis.exe" for detail information.
 2. Usage: IsoErrorAnalysis.exe parameter1 parameter2 parameter3
 	
 	**example: IsoErrorAnalysis.exe c:\test\UPS2_A1.PepList c:\test\UPS2_A1.raw c:\test\UPS2_A1.output.txt**
+
 	- parameter1: input peptide file, including (1) PepXML of PeptideProphet (2) evidence.txt of MaxQuant (v1.5.0.25 or higher) (3) PepList of PepDistiller
 	- parameter2: input raw file: Thermo raw files are fully supported.
 	- parameter3: output file full path
 
+	![Screenshot](https://raw.githubusercontent.com/PHOENIXcenter/IsoErrorAnalysis/master/MarkDownPicture/IsoErrorAnalysis_screenshot.jpg)
 
 ## Input file format
 1. MS data: the original Thermo raw files
