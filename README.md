@@ -4,28 +4,35 @@
 
 ###Author: Dr. Cheng Chang
 
-###Version v1.0
+###Version v1.1
 
 ## Goal
 The tool IsoErrorAnalysis is developed and used to calculate the peptide isotopic abundance error in MS data.
 
-##Description
-It was used in the unpblished paper "A quantitative and in-depth survey of the isotopic abundance distribution errors in shotgun proteomics"
+## Description
+1. It was used in the unpblished paper "A quantitative and in-depth survey of the isotopic abundance distribution errors in shotgun proteomics".
+2. It was developed on the platform of Microsoft Visual C++ 2010 and could be directly run on any Windows system (Microsoft Windows 10/8/7/2003/XP/2000, 64 bit or 32 bit version).
+### Usage
 
-### Run IsoErrorAnalysis
-1. It was developed on the platform of Microsoft Visual C++ 2010 and could be directly run on any Windows system (Microsoft Windows 10/8/7/2003/XP/2000, 64 bit or 32 bit version).
 2. Open a CMD command window and run "IsoErrorAnalysis.exe -help" for detail information.
+3. Usage: IsoErrorAnalysis.exe parameter1 parameter2 parameter3
+	
+	**example: IsoErrorAnalysis.exe c:\test\UPS2_A1.PepList c:\test\UPS2_A1.raw c:\test\UPS2_A1.output.txt**
+	- parameter1: input peptide file, including (1) PepXML of PeptideProphet (2) evidence.txt of MaxQuant (v1.5.0.25 or higher) (3) PepList of PepDistiller
+	- parameter2: input raw file: Thermo raw files are fully supported.
+	- parameter3: output file full path
 
-### Input files
+
+### Input file format
 1. MS data: the original Thermo raw files
 2. peptide identification results (after QC): Three software tools are supported now.
 
 - evidence.txt from MaxQuant
 - pepXML file of PeptideProphet in Trans-Proteomic Pipeline (TPP)
-- PepList file of PepDistiller developed in our lab.
+- PepList file of [PepDistiller](http://www.ncbi.nlm.nih.gov/pubmed/22623377) developed in our lab.
 
-### Output files
-*.error.single file is the output file which contains 24 columns:
+### Output file format
+output file is the output file which contains 24 columns:
 
 - peptide: peptide sequence
 - protein: protein ID
