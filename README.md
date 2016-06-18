@@ -1,6 +1,6 @@
 # IsoErrorAnalysis readme
 
-###Date: 12/4/2016
+###Date: Apr 12th 2016
 
 ###Author: Dr. Cheng Chang 
 
