@@ -12,9 +12,11 @@
 The tool IsoErrorAnalysis is developed and used to calculate the peptide isotopic abundance error in MS data.
 
 ## Description
-1. It was used in the paper "[Quantitative and in-depth survey of the isotopic abundance distribution errors in shotgun proteomics](http://www.ncbi.nlm.nih.gov/pubmed/27266261)" (Analytical Chemistry, 2016).
-2. It was developed on the platform of Microsoft Visual C++ 2010 and could be directly run on any Windows system (Microsoft Windows 10/8/7/2003/XP/2000, 64 bit or 32 bit version).
 
+This tool was developed on the platform of Microsoft Visual C++ 2010 and could be directly run on any Windows system (Microsoft Windows 10/8/7/2003/XP/2000, 64 bit or 32 bit version).
+
+## Citation
+To use IsoErrorAnalysis tool, please cite the paper "[Quantitative and in-depth survey of the isotopic abundance distribution errors in shotgun proteomics](http://www.ncbi.nlm.nih.gov/pubmed/27266261)" (*Analytical Chemistry*, 2016).
 
 ## Usage
 
