@@ -1,12 +1,12 @@
 # IsoErrorAnalysis readme
 
-###Date: Apr 12th 2016
+### Date: Apr 12th 2016
 
-###Author: Dr. Cheng Chang 
+### Author: Dr. Cheng Chang 
 
 **Email: 1987ccpacer@163.com or 1987ccpacer@gmail.com**
 
-###Version: v1.1
+### Version: v1.1
 
 ## Goal
 The tool IsoErrorAnalysis is developed and used to calculate the peptide isotopic abundance error in MS data.
